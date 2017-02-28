@@ -4,7 +4,8 @@
         "date": "Tue Feb 18 2017 15:15:45 GMT+0100 (CET)",
         "text": "Donec id elit non mi porta gravida at eget metus.",
         "reference": [
-        ]
+        ],
+        "color": "#eae672"
     },
     {
         "uid": "13213hv762hb31k",
@@ -12,7 +13,8 @@
         "text": "Donec id elit non mi porta gravida at eget metus.",
         "reference": [
             "vesperia"
-        ]
+        ],
+        "color": "#eae672"
     },
     {
         "uid": "13873hv312hb31k",
@@ -21,7 +23,8 @@
         "reference": [
             "vesperia",
             "doctena"
-        ]
+        ],
+        "color": "#eae672"
     },
     {
         "uid": "10313hv312hb31k",
@@ -29,7 +32,8 @@
         "text": "Donec id elit non mi porta gravida at eget metus.",
         "reference": [
             "doctena"
-        ]
+        ],
+        "color": "#eae672"
     },
     {
         "uid": "13213hv312lk31k",
@@ -38,6 +42,7 @@
         "reference": [
             "vesperia",
             "doctena"
-        ]
+        ],
+        "color": "#eae672"
     }
 ]

@@ -18,7 +18,13 @@ angular.module('myModule.note.add', [])
      */
     controller: function (NoteService) {
         var ctrl = this;
-        
+        ctrl.listColor = [
+            {id: 'red', name: 'red'},
+            {id: 'blue', name: 'blue'},
+            {id: 'green', name: 'green'},
+            {id: 'yellow', name: 'yellow'}
+        ];
+
         ctrl.format = 'dd/MM/yyyy';
         ctrl.isOpen = false;
         ctrl.dateOptions = {minDate: new Date(),showWeeks:true};

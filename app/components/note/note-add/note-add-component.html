@@ -16,6 +16,11 @@
     <div class="form-group">
         <input type="text" placeholder="add a note" ng-model="$ctrl.note.text" class="form-control" name="text" ng-required="true">
     </div>
+    <div class="form-group" ng-if="$ctrl.isUpdate">
+        <select ng-model="$ctrl.note.color" class="form-control" name="color" ng-required="true">
+           <option ng-repeat="option in $ctrl.listColor" value="{{option.id}}">{{option.name}}</option>
+        </select>
+    </div>
     <button type="button" class="btn btn-default" ng-click="$ctrl.cancelNote()">Cancel</button>
     <button type="submit" class="btn btn-default" ng-disabled="!noteForm.$valid">Save</button>
 </form>

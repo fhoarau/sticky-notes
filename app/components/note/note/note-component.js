@@ -14,7 +14,7 @@ angular.module('myModule.note', [])
      * Componenent note
      * 
      */
-    controller: function (NoteService) {
+    controller: function (NoteService, $attrs, $element) {
         var ctrl = this;
         /**
          * Show component update note
@@ -42,6 +42,9 @@ angular.module('myModule.note', [])
          */
         ctrl.$onInit = function() {
             ctrl.note.date = new Date(ctrl.note.date);
+            // ctrl.note.color = "yellow";
+            console.log('$attrs',$attrs)
+            console.log('$element',$element)
         };
     }
     

@@ -1,5 +1,5 @@
 <div class="quote-container">
-    <blockquote class="note yellow">
+    <blockquote class="note yellow" ng-style="{'background' : $ctrl.note.color}">
         <span class="date">{{$ctrl.note.date | date : 'dd/MM/yyyy'}}</span>
         <a ng-click="$ctrl.deleteNote($ctrl.note)"><span class="glyphicon glyphicon-remove-sign"></span></a>
         <a ng-click="$ctrl.updateNote($ctrl.note)"><span class="glyphicon glyphicon-edit"></span></a>

@@ -20,7 +20,7 @@
 }
 
 .yellow {
-  background: #eae672;
+  /*background: #eae672;*/
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
   -o-transform: rotate(2deg);
