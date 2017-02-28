@@ -1,0 +1,22 @@
+<form novalidate name="noteForm" ng-submit="$ctrl.submitNote(noteForm)">
+    <div class="form-group">
+        <p class="input-group">
+          <input type="text" class="form-control" 
+            uib-datepicker-popup="{{$ctrl.format}}" 
+            ng-model="$ctrl.note.date" is-open="$ctrl.isOpen" 
+            datepicker-options="$ctrl.dateOptions" 
+            ng-required="true" close-text="Close" 
+            name="date"
+            alt-input-formats="altInputFormats" />
+          <span class="input-group-btn">
+            <button type="button" class="btn btn-default" ng-click="$ctrl.openDate()"><i class="glyphicon glyphicon-calendar"></i></button>
+          </span>
+        </p>
+    </div>
+    <div class="form-group">
+        <input type="text" placeholder="add a note" ng-model="$ctrl.note.text" class="form-control" name="text" ng-required="true">
+    </div>
+    <button type="button" class="btn btn-default" ng-click="$ctrl.cancelNote()">Cancel</button>
+    <button type="submit" class="btn btn-default" ng-disabled="!noteForm.$valid">Save</button>
+</form>
+</div>

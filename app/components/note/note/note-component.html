@@ -1,0 +1,10 @@
+<div class="quote-container">
+    <blockquote class="note yellow">
+        <span class="date">{{$ctrl.note.date | date : 'dd/MM/yyyy'}}</span>
+        <a ng-click="$ctrl.deleteNote($ctrl.note)"><span class="glyphicon glyphicon-remove-sign"></span></a>
+        <a ng-click="$ctrl.updateNote($ctrl.note)"><span class="glyphicon glyphicon-edit"></span></a>
+        <span>{{$ctrl.note.text}}</span>
+        <!--<cite class="author">{{$ctrl.note.reference}}</cite>-->
+
+    </blockquote>
+</div>
