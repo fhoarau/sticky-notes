@@ -21,4 +21,8 @@ in css
     <link rel="stylesheet" href="bower_components/angular-bootstrap/ui-bootstrap-csp.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="components/note/note/note-component.css">
-``` 
+```
+in html
+ ```
+    <note-list-component></note-list-component>
+ ```
