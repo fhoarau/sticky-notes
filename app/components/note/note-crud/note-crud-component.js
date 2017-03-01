@@ -1,7 +1,7 @@
-angular.module('myModule.note.add', [])
+angular.module('myModule.note.crud', [])
 
-.component('noteAddComponent', {
-    templateUrl:'components/note/note-add/note-add-component.html',
+.component('noteCrudComponent', {
+    templateUrl:'components/note/note-crud/note-crud-component.html',
     bindings: { 
         dateOptions: '<',
         openDate: '&',
