@@ -1,6 +1,6 @@
 <button ng-if="!$ctrl.showNote" ng-click="$ctrl.onShowNote()">Add a note</button>
-<div ng-if="!$ctrl.showNote" class="row">
-    <div ng-repeat="note in $ctrl.notes" class="col-md-4">
+<div ng-if="!$ctrl.showNote" class="listNoteContainer">
+    <div ng-repeat="note in $ctrl.notes">
         <note-component note="note"></note-component>
     </div>
 </div>

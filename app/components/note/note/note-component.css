@@ -20,7 +20,6 @@
 }
 
 .yellow {
-  /*background: #eae672;*/
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
   -o-transform: rotate(2deg);
@@ -32,3 +31,12 @@
     font-size: 14px;
     font-weight: bold;
 }
+
+/*.itemNote{
+  height: 80px;
+  width: 122px;
+}
+
+.itemNote::after{
+  display: block;
+}*/
